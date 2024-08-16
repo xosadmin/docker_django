@@ -8,3 +8,7 @@ A docker container to run Django programs
    ``docker run -d -p 5000:5000 -v /path/to/your/app:/app foo``
 4. Enjoy
   
+### Launch new container from Docker Hub  
+
+Use the following command:  
+``docker run -d -p 8000:8000 -v /path/to/your/app:/app xosadmin/docker-django:latest``  
