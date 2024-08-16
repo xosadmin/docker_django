@@ -8,4 +8,6 @@ fi
 pip3 install --no-cache-dir django --break-system-packages
 pip3 install --no-cache-dir -r /app/requirements.txt --break-system-packages
 cd /app
+
+django-admin startproject django_project
 python3 manage.py runserver
